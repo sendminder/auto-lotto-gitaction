@@ -20,6 +20,7 @@ SLACK_CHANNEL = sys.argv[4]
 # 구매 개수를 설정
 COUNT = sys.argv[5]
 
+print(COUNT)
 
 def __get_now() -> datetime:
     now_utc = datetime.utcnow()
